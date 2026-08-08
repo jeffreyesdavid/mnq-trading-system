@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<!-- saved from url=(0243)file:///Users/jeffreysaintdavid/Library/Application%20Support/Claude/local-agent-mode-sessions/c94e1a6b-e04e-499c-b1fd-9887ca2ccb8d/d7cb4271-5f59-4a1b-9642-56300efd7677/local_84bd5672-80e9-4cb4-99e6-f8b763e9d8d6/outputs/MNQ_TRADING_SYSTEM.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE MNQ TRADING SYSTEM — Complete 8-Week Blueprint</title>
+<style>
+* { box-sizing: border-box; }
+:root {
+  --ink: #111;
+  --muted: #6b6b6b;
+  --line: #d8d8d8;
+  --paper: #fff;
+  --soft: #f6f6f4;
+  --eval-bg: #fafaf8;
+  --funded-bg: #f4f8fa;
+  --accent: #2c5a7b;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  padding: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar-content {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0 34px;
+}
+
+.navbar-logo {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0;
+  padding: 18px 0;
+  min-width: 150px;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-tabs button {
+  background: none;
+  border: none;
+  padding: 18px 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.nav-tabs button:hover {
+  color: var(--ink);
+}
+
+.nav-tabs button.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.content-section {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.content-section.active {
+  display: block;
+  opacity: 1;
+}
+
+.page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 70px 34px 80px;
+}
+
+.hero {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 70px;
+}
+
+.kicker {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 28px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(48px, 8vw, 96px);
+  line-height: 1.1;
+  letter-spacing: -2px;
+  max-width: 900px;
+  margin: 0 0 34px;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 32px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 700px;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.7;
+}
+
+.meta {
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.meta span {
+  border-left: 1px solid var(--ink);
+  padding-left: 12px;
+}
+
+.section {
+  padding: 80px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.section-head {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.section-no {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.phase-label {
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.phase-eval { background: var(--eval-bg); color: #8b6b3a; }
+.phase-funded { background: var(--funded-bg); color: var(--accent); }
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  margin: 30px 0;
+}
+
+.week-card {
+  background: var(--paper);
+  padding: 35px 25px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+.week-header {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--line);
+}
+
+.week-num {
+  font-family: Georgia, serif;
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.week-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.week-time {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+.week-content dl {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.week-content dt {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+  margin-top: 18px;
+  margin-bottom: 4px;
+}
+
+.week-content dd {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.highlight-box {
+  background: var(--soft);
+  border-left: 4px solid var(--ink);
+  padding: 25px;
+  margin: 30px 0;
+}
+
+.highlight-box h4 {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  margin: 0 0 12px 0;
+  font-weight: 600;
+}
+
+.highlight-box p {
+  margin: 0;
+  color: #444;
+  line-height: 1.7;
+}
+
+.rules-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  margin: 30px 0;
+}
+
+.rule {
+  background: var(--paper);
+  padding: 25px;
+}
+
+.rule strong {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+
+.rule p {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.profit-table {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  margin: 30px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid var(--line);
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+th {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: var(--soft);
+  font-weight: 600;
+}
+
+.projection {
+  background: var(--ink);
+  color: #fff;
+  padding: 55px;
+  margin: 30px 0;
+  border-radius: 4px;
+}
+
+.projection .label {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+.projection .big {
+  font-family: Georgia, serif;
+  font-size: clamp(56px, 8vw, 100px);
+  line-height: 1;
+  margin: 18px 0;
+}
+
+.projection p {
+  max-width: 720px;
+  color: #ddd;
+  line-height: 1.7;
+}
+
+.comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.comparison-card {
+  border: 1px solid var(--line);
+  padding: 30px;
+}
+
+.comparison-card h4 {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+}
+
+.comparison-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comparison-card li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+  color: #555;
+}
+
+.comparison-card li:last-child {
+  border-bottom: none;
+}
+
+p {
+  color: #555;
+  line-height: 1.8;
+}
+
+.curriculum-module {
+  background: var(--soft);
+  border-left: 4px solid var(--accent);
+  padding: 25px;
+  margin: 25px 0;
+}
+
+.curriculum-module h4 {
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.curriculum-module p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.handbook-section {
+  margin: 40px 0;
+  padding: 30px;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+
+.handbook-section h3 {
+  margin-top: 0;
+}
+
+code {
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+}
+
+.final-section {
+  text-align: center;
+  padding: 100px 20px 30px;
+}
+
+.final-section h2 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(42px, 6vw, 72px);
+  margin: 0 0 22px 0;
+}
+
+.final-section p {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.disclaimer {
+  font-size: 11px;
+  color: #777;
+  max-width: 800px;
+  margin: 35px auto 0;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.footer {
+  border-top: 1px solid var(--ink);
+  margin-top: 70px;
+  padding-top: 25px;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .week-grid { grid-template-columns: repeat(2, 1fr); }
+  .comparison { grid-template-columns: 1fr; }
+  .section-head { grid-template-columns: 1fr; }
+  .navbar-content { gap: 20px; }
+  .nav-tabs { gap: 15px; }
+}
+
+@media (max-width: 768px) {
+  .page { padding: 40px 20px; }
+  .hero { min-height: auto; padding: 60px 0; }
+  .week-grid { grid-template-columns: 1fr; }
+  .rules-grid { grid-template-columns: 1fr; }
+  .projection { padding: 35px 25px; }
+  .footer { flex-direction: column; }
+  .navbar-content { flex-direction: column; align-items: flex-start; }
+  .nav-tabs { gap: 20px; }
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="navbar-content">
+    <h3 class="navbar-logo">THE MNQ SYSTEM</h3>
+    <ul class="nav-tabs">
+      <li><button class="nav-btn active" onclick="switchTab(&#39;blueprint&#39;)">Blueprint</button></li>
+      <li><button class="nav-btn" onclick="switchTab(&#39;curriculum&#39;)">Curriculum</button></li>
+      <li><button class="nav-btn" onclick="switchTab(&#39;handbook&#39;)">Handbook</button></li>
+    </ul>
+  </div>
+</div>
+
+<!-- ========== BLUEPRINT SECTION ========== -->
+<div id="blueprint" class="content-section active">
+<div class="page">
+  <header class="hero">
+    <div class="kicker">MNQ / Futures Trading / Prop Firm Funded Account</div>
+    <h1>The MNQ Blueprint.</h1>
+    <p>An 8-week trading roadmap for complete beginners. Pass your evaluation in 4 weeks, then prove consistency over 4 more. Built on discipline, not luck.</p>
+    <div class="meta">
+      <span>APEX 25K ACCOUNT</span>
+      <span>MNQ MICRO FUTURES</span>
+      <span>8 WEEKS</span>
+      <span>TRADINGVIEW + TRADOVATE</span>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="phase-label phase-eval">PHASE 1: EVALUATION (Weeks 1-4)</div>
+    <div class="section-head">
+      <div class="section-no">01 / The Goal</div>
+      <h2 class="section-title">Pass the evaluation. Build the foundation.</h2>
+    </div>
+    <p>Your first job is not to get rich. It's to prove you can follow a system without breaking rules. Hit $1,500 profit in 20 trading days while respecting daily and weekly loss limits.</p>
+
+    <h3>Weeks 1–4: The Challenge</h3>
+    <div class="week-grid">
+      <div class="week-card">
+        <div class="week-header">
+          <div class="week-num">1</div>
+          <h3 class="week-title">Pass Evaluation</h3>
+          <div class="week-time">5 trading days</div>
+        </div>
+        <div class="week-content">
+          <dl>
+            <dt>Target Profit</dt>
+            <dd>$1,500</dd>
+            <dt>Daily Target</dt>
+            <dd>$300</dd>
+            <dt>Max Contracts</dt>
+            <dd>1–2</dd>
+            <dt>Daily Stop</dt>
+            <dd>-$150 (-3R)</dd>
+            <dt>Win Rate Target</dt>
+            <dd>50%+</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="week-card">
+        <div class="week-header">
+          <div class="week-num">2</div>
+          <h3 class="week-title">Prove Consistency</h3>
+          <div class="week-time">5 trading days</div>
+        </div>
+        <div class="week-content">
+          <dl>
+            <dt>Target Profit</dt>
+            <dd>$1,500</dd>
+            <dt>Daily Target</dt>
+            <dd>$300</dd>
+            <dt>Max Contracts</dt>
+            <dd>1–2</dd>
+            <dt>Daily Stop</dt>
+            <dd>-$150 (-3R)</dd>
+            <dt>Focus</dt>
+            <dd>Process over P&amp;L</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="week-card">
+        <div class="week-header">
+          <div class="week-num">3</div>
+          <h3 class="week-title">Refine Execution</h3>
+          <div class="week-time">5 trading days</div>
+        </div>
+        <div class="week-content">
+          <dl>
+            <dt>Target Profit</dt>
+            <dd>$1,500</dd>
+            <dt>Daily Target</dt>
+            <dd>$300</dd>
+            <dt>Max Contracts</dt>
+            <dd>1–2</dd>
+            <dt>Weekly Stop</dt>
+            <dd>-$300 (-6R)</dd>
+            <dt>Setup Quality</dt>
+            <dd>Grade all trades</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="week-card">
+        <div class="week-header">
+          <div class="week-num">4</div>
+          <h3 class="week-title">Final Push</h3>
+          <div class="week-time">5 trading days</div>
+        </div>
+        <div class="week-content">
+          <dl>
+            <dt>Target Profit</dt>
+            <dd>$2,000</dd>
+            <dt>Daily Target</dt>
+            <dd>$400</dd>
+            <dt>Max Contracts</dt>
+            <dd>2–3</dd>
+            <dt>Accumulated</dt>
+            <dd>~$6,500</dd>
+            <dt>Status</dt>
+            <dd>Evaluation Pass</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <h4>The Evaluation Mindset</h4>
+      <p>You're not trying to hit it big here. You're proving competence. Hit $300/day and stop. Discipline in the evaluation phase = unlimited funded account later.</p>
+    </div>
+
+    <h3>Evaluation Phase Rules (Non-Negotiable)</h3>
+    <div class="rules-grid">
+      <div class="rule">
+        <strong>Daily Loss Limit</strong>
+        <p>-$150 = stop immediately. No exceptions.</p>
+      </div>
+      <div class="rule">
+        <strong>Weekly Loss Limit</strong>
+        <p>-$300 = step away completely. Rest and reset.</p>
+      </div>
+      <div class="rule">
+        <strong>Max 3 Trades/Day</strong>
+        <p>Quality over quantity. 1–2 excellent trades beat 5 mediocre ones.</p>
+      </div>
+      <div class="rule">
+        <strong>Daily Profit Target</strong>
+        <p>Hit $300 = done. Close the app.</p>
+      </div>
+      <div class="rule">
+        <strong>Set Stop Before Entry</strong>
+        <p>Every. Single. Trade. Never move it farther into loss.</p>
+      </div>
+      <div class="rule">
+        <strong>Trade Journal</strong>
+        <p>Log setup, entry, exit, P&amp;L, and one lesson immediately.</p>
+      </div>
+      <div class="rule">
+        <strong>No Revenge Trading</strong>
+        <p>Lose once → wait 2 hours. Lose twice → wait 4 hours.</p>
+      </div>
+      <div class="rule">
+        <strong>No First/Last 30 Min</strong>
+        <p>Skip market open and close volatility.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="phase-label phase-funded">PHASE 2: FUNDED CONSISTENCY (Weeks 5-8)</div>
+    <div class="section-head">
+      <div class="section-no">02 / The Real Test</div>
+      <h2 class="section-title">Discipline compounds. Greed blows accounts.</h2>
+    </div>
+    <p>You've proven you can pass an evaluation. Now comes the part that separates funded traders from broke traders: staying disciplined when you're already winning.</p>
+
+    <h3>Weeks 5–8: Prove It Works at Scale</h3>
+    <div class="week-grid">
+      <div class="week-card">
+        <div class="week-header">
+          <div class="week-num">5</div>
+          <h3 class="week-title">Payout 1</h3>
+          <div class="week-time">5 trading days</div>
+        </div>
+        <div class="week-content">
+          <dl>
+            <dt>Target Profit</dt>
+            <dd>$1,500</dd>
+            <dt>Contracts</dt>
+            <dd>1–2 (same)</dd>
+            <dt>Projected Payout</dt>
+            <dd>~$1,050</dd>
+            <dt>Account Balance</dt>
+            <dd>$31,500+</dd>
+            <dt>Mindset</dt>
+            <dd>Protect the win</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="week-card">
+        <div class="week-header">
+          <div class="week-num">6</div>
+          <h3 class="week-title">Payout 2</h3>
+          <div class="week-time">5 trading days</div>
+        </div>
+        <div class="week-content">
+          <dl>
+            <dt>Target Profit</dt>
+            <dd>$1,500</dd>
+            <dt>Contracts</dt>
+            <dd>1–2 (same)</dd>
+            <dt>Projected Payout</dt>
+            <dd>~$1,125</dd>
+            <dt>Cumulative Cash</dt>
+            <dd>~$2,175</dd>
+            <dt>Focus</dt>
+            <dd>Repeat the system</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="week-card">
+        <div class="week-header">
+          <div class="week-num">7</div>
+          <h3 class="week-title">Scale Carefully</h3>
+          <div class="week-time">5 trading days</div>
+        </div>
+        <div class="week-content">
+          <dl>
+            <dt>Target Profit</dt>
+            <dd>$2,000–2,500</dd>
+            <dt>Contracts</dt>
+            <dd>2–3 (gradual)</dd>
+            <dt>Projected Payout</dt>
+            <dd>~$1,500+</dd>
+            <dt>Key Rule</dt>
+            <dd>Hit target = stop</dd>
+            <dt>No heroes</dt>
+            <dd>Slow consistent wins</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="week-card">
+        <div class="week-header">
+          <div class="week-num">8</div>
+          <h3 class="week-title">Final Sprint</h3>
+          <div class="week-time">5 trading days</div>
+        </div>
+        <div class="week-content">
+          <dl>
+            <dt>Target Profit</dt>
+            <dd>$2,000–3,000</dd>
+            <dt>Contracts</dt>
+            <dd>2–3 (proven)</dd>
+            <dt>Projected Payout</dt>
+            <dd>~$2,000+</dd>
+            <dt>Total 8 Weeks</dt>
+            <dd>~$6,000 cash</dd>
+            <dt>Account Size</dt>
+            <dd>$35K–40K+</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <h4>Why Funded Traders Blow Accounts (and how not to)</h4>
+      <p><strong>Pattern:</strong> Pass evaluation → get funded → panic that it's not enough → go too heavy → one bad week → blow account in 2 days.</p>
+      <p><strong>Solution:</strong> Same targets, same rules, same stops. Week 5 contracts = Week 1 contracts. Scale only after proven consistency.</p>
+    </div>
+
+    <h3>Funded Phase Rules</h3>
+    <div class="rules-grid">
+      <div class="rule">
+        <strong>Same Loss Limits Apply</strong>
+        <p>Daily -$150. Weekly -$300. Nothing changes because you passed.</p>
+      </div>
+      <div class="rule">
+        <strong>Scale Only After Consistency</strong>
+        <p>Week 5-6: Prove size. Week 7+: Increase if profitable.</p>
+      </div>
+      <div class="rule">
+        <strong>Hit Target = Stop Trading</strong>
+        <p>Don't try to make $3,000 in one day.</p>
+      </div>
+      <div class="rule">
+        <strong>Protect Every Payout</strong>
+        <p>Each payout is real money. Don't risk it chasing the next one.</p>
+      </div>
+      <div class="rule">
+        <strong>No Revenge Scaling</strong>
+        <p>Lost Tuesday? Keep size same Wednesday.</p>
+      </div>
+      <div class="rule">
+        <strong>Weekly Reset</strong>
+        <p>Friday: Review trades. Plan next week. Don't trade emotionally Monday.</p>
+      </div>
+      <div class="rule">
+        <strong>Audit Your Setups</strong>
+        <p>A+ setups only scale. B setups = hold size. C setups = skip.</p>
+      </div>
+      <div class="rule">
+        <strong>Document Everything</strong>
+        <p>Trade journal every trade. This data is your edge.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="section-no">03 / The Math</div>
+      <h2 class="section-title">MNQ Profit at Different Targets</h2>
+    </div>
+    <p>MNQ = $2 per index point. Full contracts only. This table shows exactly what you'll make at different point targets.</p>
+    <div class="profit-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Contracts</th>
+            <th>+10 Points</th>
+            <th>+15 Points</th>
+            <th>+20 Points</th>
+            <th>+25 Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1 Contract</strong></td>
+            <td>$20</td>
+            <td>$30</td>
+            <td>$40</td>
+            <td>$50</td>
+          </tr>
+          <tr>
+            <td><strong>2 Contracts</strong></td>
+            <td>$40</td>
+            <td>$60</td>
+            <td>$80</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td><strong>3 Contracts</strong></td>
+            <td>$60</td>
+            <td>$90</td>
+            <td>$120</td>
+            <td>$150</td>
+          </tr>
+          <tr>
+            <td><strong>4 Contracts</strong></td>
+            <td>$80</td>
+            <td>$120</td>
+            <td>$160</td>
+            <td>$200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="section-no">04 / Projection</div>
+      <h2 class="section-title">8-Week Realistic Outcome</h2>
+    </div>
+    <div class="projection">
+      <div class="label">Consistent execution with discipline</div>
+      <div class="big">$6,000–8,000</div>
+      <p>Realistic cash payouts over 8 weeks with careful scaling. Account grows from $25K → $35K–40K+. No promises. This assumes you hit targets, follow stops, and don't revenge trade.</p>
+    </div>
+
+    <div class="comparison">
+      <div class="comparison-card">
+        <h4>❌ How Traders Blow Accounts</h4>
+        <ul>
+          <li>Pass eval, get cocky</li>
+          <li>Double contract size too fast</li>
+          <li>One bad day, revenge trade</li>
+          <li>Ignore daily loss limits</li>
+          <li>Over-trade (10+ trades/day)</li>
+          <li>Chase losses Monday morning</li>
+          <li>No trade journal</li>
+          <li>Blow account in 2-3 weeks</li>
+        </ul>
+      </div>
+      <div class="comparison-card">
+        <h4>✓ How Disciplined Traders Compound</h4>
+        <ul>
+          <li>Hit eval targets calmly</li>
+          <li>Same size for Weeks 5-6</li>
+          <li>One bad day, follow rules</li>
+          <li>Daily stop = mandatory</li>
+          <li>3 quality trades, never 10</li>
+          <li>Plan carefully before open</li>
+          <li>Journal every trade, review weekly</li>
+          <li>Scale account for 6+ months</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-section">
+    <div class="kicker">THE MNQ BLUEPRINT</div>
+    <h2>Execute with discipline. Compound with patience.</h2>
+    <p>You have everything you need: clear targets, risk limits, position sizes, and a realistic 8-week timeline. The difference between a funded trader and a broke trader isn't intelligence. It's discipline.</p>
+    <div class="disclaimer">
+      <strong>Disclaimer:</strong> This is a trading roadmap and educational document, not investment advice or a guarantee of profit. Futures trading involves substantial risk of loss. Verify all rules with your funding provider.
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>THE MNQ BLUEPRINT</span>
+    <span>8 Weeks • Discipline • Compounding</span>
+  </footer>
+</div>
+</div>
+
+<!-- ========== CURRICULUM SECTION ========== -->
+<div id="curriculum" class="content-section">
+<div class="page">
+  <header class="hero">
+    <div class="kicker">MNQ Trading Curriculum</div>
+    <h1>Learn to Trade.</h1>
+    <p>8-week structured learning roadmap. Week-by-week lessons, daily practices, and checkpoints. Everything you need to know, in the order you need to know it.</p>
+  </header>
+
+  <section class="section">
+    <h2>Pre-Game Fundamentals (Before Week 1)</h2>
+    <p>Study 1-2 weeks before you start trading. Build your foundation.</p>
+
+    <div class="curriculum-module">
+      <h4>Module 1: Futures Trading Basics</h4>
+      <p><strong>What to learn:</strong> Futures contracts, why MNQ, leverage, risk model, the math (Profit = Contracts × Points × $2).</p>
+      <p><strong>Practice:</strong> Write out 10 profit scenarios. 2 contracts × 15 points = $60. Repeat until automatic.</p>
+    </div>
+
+    <div class="curriculum-module">
+      <h4>Module 2: How Prop Firm Funded Accounts Work</h4>
+      <p><strong>What to learn:</strong> Evaluation phase, rules, payouts, leverage, funded perks.</p>
+      <p><strong>Assignment:</strong> Write down your prop firm's exact rules. Daily limit? Weekly limit? Payout split?</p>
+    </div>
+
+    <div class="curriculum-module">
+      <h4>Module 3: The 1R Risk Framework</h4>
+      <p><strong>What to learn:</strong> 1R = $50 baseline. Daily 3R limit = -$150. Weekly 6R limit = -$300. Position sizing formula.</p>
+      <p><strong>Daily Practice (5 min):</strong> Calculate contracts from stop loss distance. Formula: Contracts = Risk ÷ (Stop Points × $2).</p>
+    </div>
+
+    <div class="curriculum-module">
+      <h4>Module 4: TradingView + Tradovate Setup</h4>
+      <p><strong>What to learn:</strong> Charting on TradingView, execution on Tradovate, integration, order types, stop losses.</p>
+      <p><strong>Setup:</strong> Paper trade 5 times per day for 3 days until muscle memory is built.</p>
+    </div>
+
+    <div class="curriculum-module">
+      <h4>Module 5: Trade Journal Template</h4>
+      <p><strong>What to create:</strong> Journal template with: Entry, Exit, Stop, Target, P&amp;L, Setup Grade, Lesson.</p>
+      <p><strong>Assignment:</strong> Create this template in Excel. Make it beautiful so you actually use it.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Phase 1: Evaluation (Weeks 1-4)</h2>
+
+    <h3>Week 1: Build the Foundation</h3>
+    <p><strong>Focus:</strong> Learn 2-3 high-conviction setups. Execute without hesitation. Follow stops perfectly. Hit daily target $300. Max 2 trades/day.</p>
+    <p><strong>Daily Practice (30 min):</strong> Pre-market review (5 min) + plan today's setups (5 min) + emotional check (2 min) + journal note (2 min).</p>
+    <p><strong>Weekly Checkpoint:</strong> Count A+/A/B/C trades (aim for 60%+ A+). Calculate win rate (50%+ is healthy). Write one behavioral goal for next week.</p>
+
+    <h3>Week 2: Prove Consistency</h3>
+    <p><strong>Focus:</strong> Setups becoming automatic. Decisions getting faster. Discipline strengthening. Emerging patterns in best trades.</p>
+    <p><strong>New Practice:</strong> Take one screenshot of a trade you DON'T execute. Why? This trains your filter.</p>
+    <p><strong>Weekly Checkpoint:</strong> Compare Week 1 vs 2 setup grades. Identify top 3 setups that win most. Write one paragraph summary.</p>
+
+    <h3>Week 3: Refine the System</h3>
+    <p><strong>Focus:</strong> Your best setups crystal clear. Avoiding C setups automatically. Risk management second nature. Ready to handle bigger account moves.</p>
+    <p><strong>New Practice:</strong> For each trade, predict outcome BEFORE looking at result. Write it down.</p>
+    <p><strong>Weekly Checkpoint:</strong> Calculate average profit per A+ setup. Average loss per B/C setup. The math tells you: stick with A+.</p>
+
+    <h3>Week 4: Prove Mastery</h3>
+    <p><strong>Focus:</strong> Handle 2-3 contracts without hesitation. Setup quality rock solid (A+ grades 80%+). Ready for evaluation pass.</p>
+    <p><strong>Evaluation Assessment:</strong> Hit $1,500 by Week 3 end? Congratulations, you've passed. Weeks 4+ is building confidence for funded phase.</p>
+  </section>
+
+  <section class="section">
+    <h2>Phase 2: Funded Consistency (Weeks 5-8)</h2>
+
+    <h3>Week 5: Payout 1 (First Real Withdrawal)</h3>
+    <p><strong>Focus:</strong> Keep doing exactly what worked in evaluation. Resist urge to scale. Understand this payout proves the system works.</p>
+    <p><strong>Psychological Shift:</strong> You'll get ~$1,050 cash. This is not a signal to trade bigger. Same targets, same rules, same stops.</p>
+
+    <h3>Week 6: Payout 2 (Prove Consistency)</h3>
+    <p><strong>Focus:</strong> Second payout proves it wasn't luck. Discipline is your edge. SAME everything as Week 5.</p>
+    <p><strong>Red Flag:</strong> If you're thinking "I can make $5,000 this week," you're about to blow account. HIT TARGET, STOP TRADING.</p>
+
+    <h3>Week 7: Scale Carefully</h3>
+    <p><strong>Focus:</strong> Increase contracts from 2 to 3 (but only if Weeks 5-6 showed 60%+ A+ grades and 55%+ win rate).</p>
+    <p><strong>Scaling Formula:</strong> Only jump if ALL true: 60%+ A+ grades, 55%+ win rate, zero rule breaks, been at current size 2+ weeks.</p>
+
+    <h3>Week 8: Final Sprint</h3>
+    <p><strong>Focus:</strong> Prove 3-4 contracts at scale. Finish strong with compounding proof. End with clear edge documentation.</p>
+    <p><strong>Document Your Edge:</strong> "My edge is [setup name], and it wins 60% of the time making 15-20 points."</p>
+  </section>
+
+  <section class="section">
+    <h2>Daily Discipline Checklist</h2>
+    <p><strong>Every Morning:</strong> 5-min setup review + 5-min level check + 5-min plan + 2-min emotional check</p>
+    <p><strong>During Market:</strong> Max 3 trades/day, stop at daily target, stop at daily loss limit, no first/last 30 min, journal after each trade</p>
+    <p><strong>After Market:</strong> Update journal, grade each setup, emotional reflection, write one sentence about your edge</p>
+    <p><strong>Every Friday:</strong> Count grades, calculate win rate, identify one mistake pattern, write one behavioral goal</p>
+  </section>
+
+  <section class="section">
+    <h2>Week 9+: Sustainable Scaling</h2>
+    <p>After 8 weeks, you've proven consistency over 160+ trades. Scale by 1 contract every 2-3 weeks (only if A+ grades stay 60%+). Target: 2-3% daily account growth through compounding.</p>
+    <p><strong>Example path:</strong> End Week 8 ($35K) → Week 9-10 (4 contracts, $38K-42K) → Week 11-12 (5 contracts, $42K-48K) → Month 3+ (6-8 contracts, $50K+)</p>
+  </section>
+
+  <footer class="footer">
+    <span>THE MNQ CURRICULUM</span>
+    <span>Learn • Practice • Improve • Scale</span>
+  </footer>
+</div>
+</div>
+
+<!-- ========== HANDBOOK SECTION ========== -->
+<div id="handbook" class="content-section">
+<div class="page">
+  <header class="hero">
+    <div class="kicker">MNQ Trading Handbook</div>
+    <h1>The Complete Reference.</h1>
+    <p>Everything you need to know about trading MNQ futures. Fundamentals, risk management, psychology, common mistakes, and real lessons from traders who succeeded.</p>
+  </header>
+
+  <section class="section">
+    <h2>Part 1: Trading Fundamentals</h2>
+
+    <div class="handbook-section">
+      <h3>What Are Futures Contracts?</h3>
+      <p>A futures contract is an agreement to buy or sell something at a specific price on a specific date. For you: you don't own the Nasdaq-100 index. You control a contract that tracks it. Small price movements = big profit/loss for you (leverage).</p>
+      <p><strong>Key Differences from Stocks:</strong> No holding overnight, guaranteed liquidity, small capital needed, leverage built in.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>How MNQ Works</h3>
+      <p><strong>Contract Specifications:</strong></p>
+      <ul style="color: #555;">
+        <li>1 point movement = $2 profit/loss per contract</li>
+        <li>Minimum tick = 0.25 points = $0.50 per contract</li>
+        <li>Trading hours: 6:00pm - 5:00pm ET (trade regular hours 9:30am - 4:00pm ET)</li>
+        <li>You control ~$105,000 of notional value with $50 risk per contract</li>
+      </ul>
+      <p><strong>Example:</strong> You buy 1 MNQ at 4200.00. Price goes to 4205.00 (5 points). Profit: 5 × $2 × 1 = $10.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>MNQ vs NQ Comparison</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Aspect</th>
+            <th>MNQ</th>
+            <th>NQ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Contract Size</td>
+            <td>$2/point</td>
+            <td>$20/point</td>
+          </tr>
+          <tr>
+            <td>Minimum Risk</td>
+            <td>$50 (5 points)</td>
+            <td>$500 (5 points)</td>
+          </tr>
+          <tr>
+            <td>Best For</td>
+            <td>Learning + prop firms</td>
+            <td>Experienced traders</td>
+          </tr>
+          <tr>
+            <td>Account Size</td>
+            <td>$25K+</td>
+            <td>$100K+</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Why MNQ:</strong> Lower barrier to entry, easier scaling learning, better for compounding, lower catastrophic risk, prop firm friendly.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Part 2: The 1R Risk Framework</h2>
+
+    <div class="handbook-section">
+      <h3>What Is 1R?</h3>
+      <p><strong>Definition:</strong> 1R = the amount of money you're willing to lose on a single trade.</p>
+      <p><strong>Starting 1R:</strong> $50. Why? On a $25K account, losing $50 is -0.2%. Losing $50 × 3 trades max = -$150/day = -0.6% per day. Sustainable.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Calculating Position Size</h3>
+      <p><strong>Formula:</strong> Contracts = Risk Dollars ÷ (Stop Loss Distance in Points × $2 per point)</p>
+      <p><strong>Example:</strong> Entry 4200, Stop 4195 (5 points), 1R = $50. Contracts = $50 ÷ (5 × $2) = $50 ÷ $10 = 5 contracts.</p>
+      <p>Verify: 5 contracts × 5 points × $2 = $50 loss if stopped out. Perfect 1R.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Daily, Weekly, Monthly Limits</h3>
+      <p><strong>Daily Loss Limit (3R):</strong> 3 × $50 = $150. Hit -$150? Stop immediately, rest of day.</p>
+      <p><strong>Weekly Loss Limit (6R):</strong> 6 × $50 = $300. Hit -$300? Stop for the week.</p>
+      <p><strong>Why This Works:</strong> Consistent small wins compound. One big loss destroys everything. This framework protects you.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Part 3: Setup Building</h2>
+
+    <div class="handbook-section">
+      <h3>What Is a Setup?</h3>
+      <p>A setup is a repeatable pattern in price action where you have an edge. Your edge = your ability to predict what happens next better than random guessing (50%).</p>
+      <p><strong>NOT a Setup:</strong> "The price is going up, I feel it" (intuition). "Everyone on Twitter is bullish" (social proof).</p>
+      <p><strong>IS a Setup:</strong> "Price touches support 3 times, bounces 2 times, then hits it again = 80%+ bounce chance" (documented edge).</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Three High-Probability Setups</h3>
+
+      <h4>Setup 1: Support/Resistance Bounce</h4>
+      <p><strong>How to Identify:</strong> Find a price level where MNQ bounced 2+ times. Wait for price to approach that level again. Enter when it bounces off.</p>
+      <p><strong>Example:</strong> MNQ bounced at 4200 twice. Now at 4205, falling toward 4200. Entry: 4202. Stop: 4198 (4 points). Target: 4210 (8 points). Risk/Reward: 1:2 (good).</p>
+      <p><strong>Win Rate:</strong> 55-60% if bounce is clean.</p>
+
+      <h4>Setup 2: Breakout + Pullback</h4>
+      <p><strong>How to Identify:</strong> Price trapped between support/resistance. Breaks above/below. Comes back (pullback). Enter on pullback.</p>
+      <p><strong>Example:</strong> MNQ between 4190-4210 (range). Breaks above 4210. Comes back to 4210 (pullback). Entry: 4212. Stop: 4208 (4 points). Target: 4225 (13 points). Risk/Reward: 1:3 (excellent).</p>
+      <p><strong>Win Rate:</strong> 60-65% if range is established.</p>
+
+      <h4>Setup 3: Moving Average Bounce</h4>
+      <p><strong>How to Identify:</strong> Add 20-period MA. Price is above/below MA (in trend). Price pulls back to MA. MA is sloping in trend direction. Enter when price bounces off MA.</p>
+      <p><strong>Example:</strong> MNQ in uptrend (each bounce higher). 20 MA rising. Price pulls back to MA at 4205. Entry: 4206. Stop: 4203 (3 points). Target: 4215 (9 points). Risk/Reward: 1:3 (excellent).</p>
+      <p><strong>Win Rate:</strong> 55-60% if trend is strong.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Finding Your Own Setups</h3>
+      <p><strong>Process:</strong> Trade one setup for 2 weeks. Review 40 trades. Which ones won most? Screenshot winners. What do they have in common? Write description: "My edge is X setup at Y level in Z direction."</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Part 4: A+ / A / B / C Grading System</h2>
+
+    <div class="handbook-section">
+      <h3>Why Grade?</h3>
+      <p>You can win on a C setup and lose on an A+ setup. But over 100 trades, A+ setups compound while C setups destroy accounts. Grade every setup independently from P&amp;L.</p>
+
+      <h4>A+ Setup (Textbook)</h4>
+      <p>2+ confluences, high conviction, risk/reward 1:2+, win rate 60%+. <strong>Trade with 2 contracts.</strong></p>
+
+      <h4>A Setup (Good)</h4>
+      <p>1-2 confluences, risk/reward 1:1.5-1:2, win rate 55-58%. <strong>Trade with 1-2 contracts.</strong></p>
+
+      <h4>B Setup (Okay but Risky)</h4>
+      <p>1 weak confluence, risk/reward 1:1 or worse, win rate 50-53%. <strong>Trade 0-1 contracts or skip.</strong></p>
+
+      <h4>C Setup (Avoid)</h4>
+      <p>No clear confluence, desperation, revenge, win rate 45-50%. <strong>Skip completely.</strong></p>
+
+      <p><strong>Hard Truth:</strong> If you trade a C setup and win, you learn bad lessons. If you lose, you lose money. Skip them.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Part 5: Psychology Framework</h2>
+
+    <div class="handbook-section">
+      <h3>Fear (Most Common Pre-Evaluation)</h3>
+      <p><strong>What It Looks Like:</strong> You see perfect A+ setup, hesitate. Enter smaller size. Exit early. Avoid volatile times.</p>
+      <p><strong>How to Overcome:</strong> Remember: You're risking $50 on $25,000. That's 0.2%. Over 20 trades at 55% win rate, you make $100 net. Fear is telling you something is dangerous, but losing $50 is data, not danger.</p>
+      <p><strong>Drill:</strong> Trade micro sizes (1 contract, $10-20 risk) for 5 days. Lose all 5 if you have to. Confidence builds.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Greed (Most Common Post-Evaluation)</h3>
+      <p><strong>What It Looks Like:</strong> Pass eval Week 3, get payout Week 5. Suddenly want $5,000/week. Jump from 2 to 5 contracts. One bad trade = -$500. Account underwater. Panic. Account blown.</p>
+      <p><strong>How to Overcome:</strong> Write this down: "Greed blows accounts. Discipline compounds." Same size Week 5 as Week 4. Same daily targets Week 5. Only scale Week 7 after 4 weeks of consistency.</p>
+      <p><strong>Drill:</strong> Week 5-6: Same size as Week 4 (no exceptions). Only scale Week 7 if 60%+ A+ both weeks.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Revenge Trading (Killer)</h3>
+      <p><strong>What It Looks Like:</strong> Lose trade 1 (-$50). Immediately re-enter to get it back. Lose again (-$75). Now down -$125 and angry. Third trade (-$100). Account -$225, only 3 trades morning.</p>
+      <p><strong>How to Overcome:</strong> Rule: Lose once → wait 2 hours. Lose twice → wait 4 hours. Use this time to calm down. You'll save yourself from -$225 to -$75.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Overconfidence (Killer of Consistency)</h3>
+      <p><strong>What It Looks Like:</strong> Great week (+$2,000), feel like genius. Skip pre-market routine. Trade B/C setups. Next week -$1,500. Account back to where you started.</p>
+      <p><strong>How to Overcome:</strong> Reminder: The system made the money, not you. Same pre-market ritual after good weeks. Same grade filtering (A+ only). Document: "All my big losses came after overconfident weeks."</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Part 6: Common Mistakes</h2>
+
+    <div class="handbook-section">
+      <h3>Mistake 1: Improper Position Sizing</h3>
+      <p><strong>The Error:</strong> You see A+ setup, get excited, trade 5 contracts instead of 2. Setup works, make $100. Think "let's do it again." Next setup doesn't work, lose -$100. Your risk/reward is now 1:1 (coin flip).</p>
+      <p><strong>How to Avoid:</strong> Every trade: Calculate contracts from stop loss. Formula: Contracts = Risk ÷ (Stop Points × $2). Write it down. Verify your loss equals your 1R.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Mistake 2: No Pre-Planned Stop Loss</h3>
+      <p><strong>The Error:</strong> Enter at 4210. "I'll set stop if it goes below 4207." Price immediately drops to 4208. Wait for bounce. Price keeps dropping. Finally hit stop at 4195 (15 points instead of 3). Risk was $50. Loss was $150.</p>
+      <p><strong>How to Avoid:</strong> RULE: Set stop BEFORE entering. Write it in journal before clicking enter. Never move stop farther into loss.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Mistake 3: Holding for the Home Run</h3>
+      <p><strong>The Error:</strong> Entry 4210, Stop 4207, Target 4220. Price reaches 4220, think "let me hold for 4225." Price goes 4220 → 4215 → hit stop. Profit turned into loss.</p>
+      <p><strong>How to Avoid:</strong> Your target is your exit. Exit at target. Period. You can scale out (sell half at 4220, hold half to 4225). But full position out at target = rule.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Mistake 4: Over-Trading</h3>
+      <p><strong>The Error:</strong> Trade 1 (win +$40) → Trade 2 (B-grade, lose -$50) → Trade 3 (C-grade revenge, lose -$50) → 3 trades, 1 win, 2 losses, net -$60.</p>
+      <p><strong>How to Avoid:</strong> Max 3 trades/day (realistically 1-2). If you hit daily target ($300), stop. Don't stack profits.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Mistake 5: Ignoring Loss Limits</h3>
+      <p><strong>The Error:</strong> Daily limit -$150. Trade 1: -$60. Trade 2: -$50 (-$110 cumulative). "I can take one more." Trade 3: -$60 (-$170, over limit). You broke your own rule.</p>
+      <p><strong>How to Avoid:</strong> Treat -$150 as non-negotiable. When you hit -$100, you know you have one more trade. When you hit -$150, you MUST stop.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Mistake 6: No Trade Journal</h3>
+      <p><strong>The Error:</strong> Trade 30 times Week 1. Remember you won 15, lost 15. Think "my setups are 50/50" and quit.</p>
+      <p><strong>Reality (if you journaled):</strong> 12 A+ setups: 9 wins (75%). 10 B setups: 5 wins (50%). 8 C setups: 2 wins (25%). Your edge is HUGE, but you're trading too many B/C.</p>
+      <p><strong>How to Avoid:</strong> Journal every trade (30 seconds). Review after 20 trades. Pattern emerges. You see your edge.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Mistake 7: Trading Bad Times</h3>
+      <p><strong>The Error:</strong> Trade first 30 min (9:30-10:00) and last 30 min (3:30-4:00). Highly volatile. Stops hit more often. Win rate drops 60% → 40%.</p>
+      <p><strong>How to Avoid:</strong> No trades 9:30-10:00 and 3:30-4:00. Sweet spot: 10:00-3:30 (5.5 hours steady trading). You'll still get 3-5 quality setups. Higher win rate, less stress.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Part 7: Real Lessons Learned</h2>
+
+    <div class="handbook-section">
+      <h3>Pattern 1: Evaluation Hero → Funded Disaster</h3>
+      <p><strong>What Happens:</strong> Week 1-3 follow rules, win 55%+. Week 4 pass eval. Week 5 get funded. Get first payout. Panic it's not enough. Double position size. One bad trade -$200. Psychology breaks. Account down from $25K. Week 6 blown up.</p>
+      <p><strong>How Winners Avoid:</strong> Same position size Week 5 as Week 4. Same targets Week 5 as Week 4. Week 5 = prove system still works at funded level. Week 6 = second proof. Week 7 = scale. Patience wins.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Pattern 2: Setup Chaser</h3>
+      <p><strong>What Happens:</strong> Find one winning setup, trade it 20 times, win 60% = $800 profit. Get overconfident. Start seeing it everywhere (even when not there). Trade B/C grade versions. Win rate drops 60% → 45%. Profits dry up.</p>
+      <p><strong>How Winners Avoid:</strong> Document top 3 setups. Grade them rigorously (A+ vs A vs B). Only trade best versions. Ignore weak versions. Stay disciplined.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Pattern 3: Account Grower</h3>
+      <p><strong>What Happens:</strong> Week 1-4 make $6,500 (pass eval). Week 5-8 make $6,000 (payouts). Month 2 account $37,500. Month 3 consistent +$2,500/week. Month 6 account $100,000. Year 1 account $300,000+.</p>
+      <p><strong>Why It Works:</strong> Respect rules. Scale slowly. Review weekly. Avoid revenge. Document everything. Consistency = compounding.</p>
+      <p><strong>Key Quote:</strong> "I'm not trying to get rich quick. I'm trying to make $300/day sustainably. In 12 months, that's $72,000."</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Pattern 4: Emotional Alchemy</h3>
+      <p><strong>What Separates Winners:</strong></p>
+      <ul style="color: #555;">
+        <li>Bad traders: Lose once, want to make it back immediately (revenge)</li>
+        <li>Good traders: Lose once, take 2-hour break (discipline)</li>
+        <li>Bad traders: Win big, immediately increase size (greed)</li>
+        <li>Good traders: Win big, same size next week (patience)</li>
+        <li>Bad traders: Trade 10+ times/day (desperation)</li>
+        <li>Good traders: Trade 2-3 times/day (quality)</li>
+      </ul>
+      <p>The difference is not intelligence. It's emotional management.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Part 8: Scaling Strategy</h2>
+
+    <div class="handbook-section">
+      <h3>Why Slow Scaling Matters</h3>
+      <p><strong>Fast Scaling (Most Traders):</strong> Week 1 (1 contract, $1,500), Week 2 (2 contracts, $3,000), Week 3 (5 contracts, +$10K), Week 4 (8 contracts, one bad day = blown up).</p>
+      <p><strong>Slow Scaling (Winners):</strong> Week 1-4 (1-2 contracts), Week 5-6 (2 contracts, prove funded), Week 7-8 (3 contracts, bigger works), Month 2+ (4 contracts, after consistency).</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Scaling Rules</h3>
+      <p><strong>Only scale if ALL true:</strong></p>
+      <ul style="color: #555;">
+        <li>60%+ A+ setup grades last 2 weeks</li>
+        <li>Win rate 55%+ last 2 weeks</li>
+        <li>Zero emotional rule breaks</li>
+        <li>Zero daily loss limit violations</li>
+        <li>Been at current size 2+ weeks</li>
+      </ul>
+      <p><strong>Scale by One Contract Only:</strong> 1 → 2 (not 1 → 3). 2 → 3 (not 2 → 4). Wait 2 weeks before next scale.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>Realistic Scaling Path</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Timeline</th>
+            <th>Contracts</th>
+            <th>Daily Target</th>
+            <th>Account</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Eval Weeks 1-4</td>
+            <td>1-2</td>
+            <td>$300-400</td>
+            <td>$25K → $31.5K</td>
+          </tr>
+          <tr>
+            <td>Funded Week 5-6</td>
+            <td>2</td>
+            <td>$300-400</td>
+            <td>$31.5K → $33K</td>
+          </tr>
+          <tr>
+            <td>Growth Week 7-8</td>
+            <td>3</td>
+            <td>$400-500</td>
+            <td>$33K → $35K</td>
+          </tr>
+          <tr>
+            <td>Month 2 Week 9-12</td>
+            <td>4</td>
+            <td>$500-600</td>
+            <td>$35K → $40K</td>
+          </tr>
+          <tr>
+            <td>Month 3 Week 13-16</td>
+            <td>5</td>
+            <td>$600-750</td>
+            <td>$40K → $46K</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Key Insight:</strong> By Month 4, you've made $28,000 from $25K evaluation. Your account doubled. That's real compound growth.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Part 9: FAQ</h2>
+
+    <div class="handbook-section">
+      <h3>Can I trade part-time while working?</h3>
+      <p><strong>Answer:</strong> Yes, if disciplined. Morning session 9:30am-1:00pm (3.5 hours). Before work or lunch break. Set targets, stop, journal at end of day.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>How much can I make per month?</h3>
+      <p><strong>Answer:</strong> Depends on consistency and size. Conservative (1-2 contracts): $6K-8K/month. Moderate (2-3): $8K-12K. Aggressive (4-5): $12K-20K. But only after months of consistency, 60%+ win rate, slow scaling.</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>What if I fail my evaluation?</h3>
+      <p><strong>Answer:</strong> Review your journal. Find the pattern. Did you break rules? Win rate suck? Overtrade? Fix one thing, re-apply (usually resets 30 days).</p>
+    </div>
+
+    <div class="handbook-section">
+      <h3>When should I go full-time?</h3>
+      <p><strong>Answer:</strong> After 6 months consistent profit. Account $50K+, 55%+ win rate, 12 months living expenses saved. Don't rush.</p>
+    </div>
+  </section>
+
+  <section class="final-section">
+    <div class="kicker">THE MNQ HANDBOOK</div>
+    <h2>Everything you need to trade.</h2>
+    <p>This handbook is comprehensive, but only useful if you use it. Read it twice. Create your journal. Trade live. Grade every setup. Review weekly. Discipline compounds over 12 months.</p>
+    <div class="disclaimer">
+      <strong>Disclaimer:</strong> This is educational material, not investment advice. Futures trading involves substantial risk of loss. Verify all rules with your funding provider. Trade responsibly.
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>THE MNQ HANDBOOK</span>
+    <span>Reference • Learn • Execute • Compound</span>
+  </footer>
+</div>
+</div>
+
+<script>
+function switchTab(tabName) {
+  const sections = document.querySelectorAll('.content-section');
+  const buttons = document.querySelectorAll('.nav-btn');
+
+  sections.forEach(section => {
+    section.classList.remove('active');
+  });
+
+  buttons.forEach(button => {
+    button.classList.remove('active');
+  });
+
+  document.getElementById(tabName).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+
+
+</body></html>
